@@ -1,0 +1,92 @@
+body, html {
+  height: 100%;
+  margin: 0; }
+
+.articles {
+  display: inline-flex;
+  flex-flow: row wrap;
+  margin-top: 5px; }
+
+.articles-cars {
+  display: flex;
+  margin: auto; }
+
+.article-newest-car, .article-fastest-car, .article-car-of-the-day {
+  display: flex;
+  flex-flow: row wrap;
+  width: 32%;
+  margin-bottom: 20px;
+  margin-left: 0.6%;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 4px; }
+
+.article-car-of-the-day {
+  margin-right: 0.6%; }
+
+.article-header {
+  background-color: #4CAF50;
+  display: block;
+  width: 100%;
+  height: 61px;
+  margin: 2px;
+  border-radius: 4px; }
+
+#article-car {
+  width: 300px;
+  margin-left: 3px;
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px; }
+
+.article-car-img {
+  display: inline-block; }
+
+.article-car-stats {
+  margin-left: 3px;
+  float: right;
+  display: inline-block; }
+
+h1 {
+  color: white;
+  margin-left: 3px; }
+
+h2 {
+  margin-left: 3px; }
+
+h3 {
+  line-height: 8px; }
+
+p {
+  margin-left: 3px;
+  margin-rigth: 3px; }
+
+@media screen and (max-width: 370px) {
+  #article-car {
+    padding-left: auto;
+    padding-right: auto;
+    width: 97%; } }
+
+@media screen and (max-width: 530px) {
+  .article-car-stats {
+    width: 100%;
+    margin: auto; } }
+
+@media screen and (max-width: 1470px) {
+  .article-fastest-car, .article-newest-car {
+    width: 48.5%; }
+  .article-car-of-the-day {
+    margin: auto;
+    width: 50%; } }
+
+@media screen and (max-width: 980px) {
+  .article-car-of-the-day, .article-newest-car, .article-fastest-car {
+    width: 98%;
+    margin: auto;
+    margin-bottom: 20px; } }
+
+@media screen and (max-width: 640px) {
+  .article-newest-car, .article-fastest-car, .article-car-of-the-day {
+    margin-right: 20px;
+    margin-left: 20px; } }

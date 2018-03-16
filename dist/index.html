@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>GTA V News</title>
+
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/templates.js"></script>
+
+    <script>
+        $(function () {
+            spa.initModule($('#spa'));
+        });
+    </script>
+</head>
+
+<body>
+<div id="loader-wrapper">
+    <img src="images/tire.png" alt="Logo" id="loader">
+
+    <!--Stap 1-->
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+<!--NavBar-->
+<nav class="navbar" id="NavBar">
+    <a href="/" class="active">Home</a>
+    <a href="" id="navbar-cars">Cars</a>
+    <a href="">Laptimes</a>
+    <a href="">About</a>
+    <a href="">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="Responsive()">&#9776;</a>
+</nav>
+<!--End NavBar-->
+<header class="bg"></header>
+<div id="spa">
+    <article id="message">
+        <div class="message-background">
+            <p id="message-exit"><b>&times;</b></p>
+            <section class="message-content">
+                <p id="message-content"></p>
+            </section>
+            <section class="message-button">
+                <a href="" id="message-button-link">
+                    <button id="message-button">Text</button>
+                </a>
+            </section>
+        </div>
+    </article>
+
+    <section class="articles">
+        <article class="article-newest-car">
+            <header class="article-header">
+                <h1>Newest Car:</h1>
+            </header>
+            <section class="article-section">
+                <h2>Pfister Comet SR</h2>
+                <section class="article-car-img">
+                    <img src="images/CometSR.png" alt="Logo" id="article-car">
+                    <section class="article-car-stats">
+                        <h3>Price: $1.145.000</h3>
+                        <h3>Car Class: Sports</h3>
+                        <h3>Laptime: 1:01.962</h3>
+                    </section>
+                </section>
+                <p>The Pfister Comet SR is a sports car featured in Grand Theft Auto Online as part of the continuation of The Doomsday Heist update.
+                    The Comet SR is a racing-oriented variant of the Comet, sporting a roll cage and updated rear spoiler by default.
+                    It features an updated front and rear fascia, as well as several CFRP elements throughout the body.
+                    The vehicle is based on the Porsche 997 GT2 RS, as evidenced in the carbon fiber elements, default roll cage, and default rear spoiler.
+                <p>
+            </section>
+        </article>
+
+        <article class="article-fastest-car">
+            <header class="article-header">
+                <h1>Fastest Car:</h1>
+            </header>
+            <section class="article-section">
+                <h2>Dewbauchee Vagner</h2>
+                <section class="article-car-img">
+                    <img src="images/Vagner.png" alt="Logo" id="article-car">
+                    <section class="article-car-stats">
+                        <h3>Price: $1.535.000</h3>
+                        <h3>Car Class: Super</h3>
+                        <h3>Laptime: 0:59.194</h3>
+                    </section>
+                </section>
+                <p>The Dewbauchee Vagner is a prototype hypercar featured in Grand Theft Auto Online as part of the Independence Day Special continuation of the Gunrunning update.
+                    The car heavily resembles the Aston Martin Valkyrie prototype hypercar, particularly in the elongated design, frontal fascia and greenhouse area scaling.
+                    The shape of front headlights seems to be inspired by the ones found in the Jaguar C-X75.
+                    The headlights are inspired by the ones found in the Porsche Mission E. The rear lights seems to be inspired by the Nio EP9.
+                <p>
+            </section>
+        </article>
+
+        <article class="article-car-of-the-day">
+            <header class="article-header">
+                <h1>Car of the Day:</h1>
+            </header>
+            <section class="article-section">
+                <h2>Übermacht Revolter</h2>
+                <section class="article-car-img">
+                    <img src="images/Revolter.png" alt="Logo" id="article-car">
+                    <section class="article-car-stats">
+                        <h3>Price: $138.455.000</h3>
+                        <h3>Car Class: Sports</h3>
+                        <h3>Laptime: 1:04.198</h3>
+                    </section>
+                </section>
+                <p>The Übermacht Revolter is a luxury 4-door sports sedan featured in Grand Theft Auto Online as
+                    part of the continuation of the Doomsday Heist update. It is based on the Cadillac Escala Concept and the
+                    BMW 7 Series Concept, with headlights that appears to be from the Audi TT Mk3. The interior appears to
+                    be the same as the Nero, obviously altered to fit into the sedan layout.
+                <p>
+            </section>
+        </article>
+    </section>
+</div>
+
+</body>
+</html>

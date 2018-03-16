@@ -1,0 +1,50 @@
+#weather {
+  position: relative;
+  display: block;
+  width: 50px;
+  heigth: 50px; }
+
+#message {
+  display: none;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  background-color: white;
+  width: 99.5%;
+  height: 44px;
+  float: left;
+  margin: 2px; }
+
+.message-background {
+  border-radius: 5px;
+  display: block;
+  margin: 2px;
+  height: 40px; }
+
+.message-header {
+  display: block; }
+
+.message-content p {
+  display: inline;
+  margin: 4px;
+  font-size: 36px; }
+
+#message-content {
+  text-align: left; }
+
+#message-button {
+  position: relative;
+  display: none;
+  float: right;
+  top: -30px;
+  right: 20px;
+  min-width: 50px;
+  border: none;
+  cursor: pointer; }
+
+#message-exit {
+  position: relative;
+  top: -36px;
+  right: 3px;
+  float: right;
+  font-size: 30px;
+  cursor: pointer; }

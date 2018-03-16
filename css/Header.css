@@ -1,0 +1,10 @@
+.bg {
+  background-image: url("../images/GTA_turismoR_in_rain.jpg");
+  height: 50%;
+  margin-top: 48px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0%;
+  display: block;
+  resize: none; }
